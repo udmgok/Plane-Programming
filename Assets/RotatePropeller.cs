@@ -10,7 +10,7 @@ public class RotatePropeller : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // This is when Update is called once per frame
     void Update()
     {
         transform.Rotate(Vector3.forward, 40);
